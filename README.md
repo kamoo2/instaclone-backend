@@ -4,6 +4,17 @@ Instaclone Backend.
 
 <hr>
 
+### USER :
+
+- [ ⭕️ ] Create Account
+- [ ⭕️ ] See Profile
+- [] Login
+- [] Edit Profile
+- [] Follow User
+- [] Unfollow User
+- [] Change Avatar (Image Upload)
+
+<hr>
 ## BackEnd SetUp
 
 `npm init -y`
@@ -97,6 +108,8 @@ schema.js 에서 필요한 것들을 모두 나누고 나서 모든 User,Movie,P
 import dotenv from "dotenv"
 dotenv.config()
 
-### Postgresql DB 제거 하는법
+### Postgresql DB 생성 제거
 
-`DROP DATABASE instaclone;`
+`DROP DATABASE instaclone;` : 제거
+
+`CREATE DATABASE instaclone;` : 생성
