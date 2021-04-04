@@ -8,7 +8,7 @@ Instaclone Backend.
 
 - [ ⭕️ ] Create Account
 - [ ⭕️ ] See Profile
-- [] Login
+- [ ⭕️ ] Login
 - [] Edit Profile
 - [] Follow User
 - [] Unfollow User
