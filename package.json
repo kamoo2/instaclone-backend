@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": ""
+    "dev": "nodemon --exec babel-node server",
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/kamoo2/instaclone-backend/issues"
   },
-  "homepage": "https://github.com/kamoo2/instaclone-backend#readme"
+  "homepage": "https://github.com/kamoo2/instaclone-backend#readme",
+  "dependencies": {
+    "@prisma/client": "2.20.1",
+    "apollo-server": "^2.22.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "graphql-tools": "^7.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "nodemon": "^2.0.7",
+    "prisma": "2.20.1"
+  }
 }
