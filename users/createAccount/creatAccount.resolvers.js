@@ -22,7 +22,7 @@ export default {
         });
         // error를 던져주면 그 아래 코드는 실행되지 않는다. 그냥 그자리에서 boom..
         if (existingUser) {
-          throw new Error("This username/password is already taken.");
+          throw new Error("This username/email is already taken.");
         }
         // hash password
         // ex) : 1234 -> hashingfn(1234) -> awferlse32345lkfeis DB
