@@ -20,16 +20,12 @@ export default {
             ],
           },
         });
-        // error를 던져주면 그 아래 코드는 실행되지 않는다. 그냥 그자리에서 boom..
         if (existingUser) {
           throw new Error("This username/email is already taken.");
         }
-        // hash password
-        // ex) : 1234 -> hashingfn(1234) -> awferlse32345lkfeis DB
         const uglyPassword = await bcrypt.hash(password, 10);
 
-        // save and return the user
-        return client.user.create({
+        await client.user.create({
           data: {
             username,
             email,
@@ -38,8 +34,14 @@ export default {
             password: uglyPassword,
           },
         });
+        return {
+          ok: true,
+        };
       } catch (e) {
-        return e;
+        return {
+          ok: false,
+          error: "Can't create account",
+        };
       }
     },
   },

@@ -4,15 +4,34 @@ Instaclone Backend.
 
 <hr>
 
-### USER :
+### USER
 
 - [ ⭕️ ] Create Account
 - [ ⭕️ ] See Profile
 - [ ⭕️ ] Login
-- [] Edit Profile
-- [] Follow User
-- [] Unfollow User
-- [] Change Avatar (Image Upload)
+- [ ⭕️ ] Edit Profile
+- [ ⭕️ ] Change Avatar (Image Upload)
+- [ ⭕️ ] Follow User
+- [ ⭕️ ] Unfollow User
+- [] See Following and See Followers with Pagination
+- [] Search Users
+
+### Photos
+
+- [] See Photo
+- [] Upload Photo
+- [] Edit Photo
+- [] Like / Unlike Photo
+- [] See Photo Likes
+- [] See Feed
+- [] Search Photos
+- [] See Hashtags
+
+### Comments
+
+- [] Comment on Photo
+- [] Edit Comment
+- [] Delete Comment
 
 <hr>
 ## BackEnd SetUp
