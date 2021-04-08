@@ -24,5 +24,5 @@ app.use("/static", express.static("uploads"));
 apollo.applyMiddleware({ app });
 
 app.listen({ port: PORT }, () => {
-  console.log(`Server is running on http://localhost:${PORT} ✅`);
+  console.log(`Server is running on http://localhost:${PORT}/graphql ✅`);
 });

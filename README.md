@@ -13,8 +13,9 @@ Instaclone Backend.
 - [ ⭕️ ] Change Avatar (Image Upload)
 - [ ⭕️ ] Follow User
 - [ ⭕️ ] Unfollow User
-- [] See Following and See Followers with Pagination
-- [] Search Users
+- [ ⭕️ ] See Followers with offset Pagination
+- [ ⭕️ ] See Following with Cursor-based Pagination
+- [ ⭕️ ] Search Users
 
 ### Photos
 
