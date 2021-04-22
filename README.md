@@ -25,14 +25,25 @@ Instaclone Backend.
 - [ ⭕️ ] Search Photos
 - [ ⭕️ ] Edit Photo
 - [ ⭕️ ] Like / Unlike Photo
+- [ ⭕️ ] see Photo Comments
 - [ ⭕️ ] See Photo Likes
 - [ ⭕️ ] See Feed
+- [ ⭕️ ] is Mine (Delete Photo)
 
 ### Comments
 
-- [] Comment on Photo
-- [] Edit Comment
-- [] Delete Comment
+- [ ⭕️ ] Comment on Photo
+- [ ⭕️ ] Edit Comment
+- [ ⭕️ ] Delete Comment
+- [ ⭕️ ] isMine (Delete Comment)
+
+### Refactor
+
+- [ ⭕️ ] Mutation Responses
+
+### Extras
+
+- [ ⭕️ ] S3 Image Upload
 
 <hr>
 ## BackEnd SetUp

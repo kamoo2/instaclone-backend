@@ -22,6 +22,18 @@ export default {
           photoId: id,
         },
       }),
+    commentCount: ({ id }) =>
+      client.comment.count({
+        where: {
+          photoId: id,
+        },
+      }),
+    isMine: ({ userId }, _, { loggedInUser }) => {
+      if (!loggedInUser) {
+        return false;
+      }
+      return userId === loggedInUser.id;
+    },
   },
   Hashtag: {
     // 해당 hashtag를 가지는 photos의 개수를 return 해줘야함
