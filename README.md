@@ -45,6 +45,15 @@ Instaclone Backend.
 
 - [ ⭕️ ] S3 Image Upload
 
+### Direct Messages
+
+- [ ⭕️ ] See Room
+- [ ⭕️ ] Send Message (Create Room)
+- [ ⭕️ ] See Room
+- [ ⭕️ ] Computed Fields
+- [ ⭕️ ] See (Read) Message
+- [] RealTime Messages
+
 <hr>
 ## BackEnd SetUp
 
